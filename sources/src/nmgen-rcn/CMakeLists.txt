@@ -2,6 +2,8 @@ cmake_minimum_required (VERSION 2.8)
 
 project (nmgen-rcn)
 
+set(CMAKE_POSITION_INDEPENDENT_CODE ON)
+
 add_subdirectory(Recast)
 
 include_directories(Recast/Include)

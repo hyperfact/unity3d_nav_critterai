@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC3D588F1F4BCE3200329226 /* BuildContext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC3D58871F4BCE3200329226 /* BuildContext.cpp */; };
+		DC3D58901F4BCE3200329226 /* CompactHeightfieldEx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC3D58881F4BCE3200329226 /* CompactHeightfieldEx.cpp */; };
+		DC3D58911F4BCE3200329226 /* ContoursEx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC3D58891F4BCE3200329226 /* ContoursEx.cpp */; };
+		DC3D58921F4BCE3200329226 /* HeightfieldEx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC3D588A1F4BCE3200329226 /* HeightfieldEx.cpp */; };
+		DC3D58931F4BCE3200329226 /* HeightfieldLayerSet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC3D588B1F4BCE3200329226 /* HeightfieldLayerSet.cpp */; };
+		DC3D58941F4BCE3200329226 /* NMGen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC3D588C1F4BCE3200329226 /* NMGen.cpp */; };
+		DC3D58951F4BCE3200329226 /* PolyMeshDetailEx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC3D588D1F4BCE3200329226 /* PolyMeshDetailEx.cpp */; };
+		DC3D58961F4BCE3200329226 /* PolyMeshEx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC3D588E1F4BCE3200329226 /* PolyMeshEx.cpp */; };
+		DC3D58AA1F4BCE3D00329226 /* Recast.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC3D589E1F4BCE3D00329226 /* Recast.cpp */; };
+		DC3D58AB1F4BCE3D00329226 /* RecastAlloc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC3D589F1F4BCE3D00329226 /* RecastAlloc.cpp */; };
+		DC3D58AC1F4BCE3D00329226 /* RecastArea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC3D58A01F4BCE3D00329226 /* RecastArea.cpp */; };
+		DC3D58AD1F4BCE3D00329226 /* RecastAssert.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC3D58A11F4BCE3D00329226 /* RecastAssert.cpp */; };
+		DC3D58AE1F4BCE3D00329226 /* RecastContour.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC3D58A21F4BCE3D00329226 /* RecastContour.cpp */; };
+		DC3D58AF1F4BCE3D00329226 /* RecastFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC3D58A31F4BCE3D00329226 /* RecastFilter.cpp */; };
+		DC3D58B01F4BCE3D00329226 /* RecastLayers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC3D58A41F4BCE3D00329226 /* RecastLayers.cpp */; };
+		DC3D58B11F4BCE3D00329226 /* RecastMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC3D58A51F4BCE3D00329226 /* RecastMesh.cpp */; };
+		DC3D58B21F4BCE3D00329226 /* RecastMeshDetail.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC3D58A61F4BCE3D00329226 /* RecastMeshDetail.cpp */; };
+		DC3D58B31F4BCE3D00329226 /* RecastRasterization.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC3D58A71F4BCE3D00329226 /* RecastRasterization.cpp */; };
+		DC3D58B41F4BCE3D00329226 /* RecastRegion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC3D58A81F4BCE3D00329226 /* RecastRegion.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC3D587A1F4BCE0600329226 /* cai-nmgen-rcn.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cai-nmgen-rcn.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC3D587D1F4BCE0600329226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC3D58851F4BCE3200329226 /* NMGen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMGen.h; sourceTree = "<group>"; };
+		DC3D58871F4BCE3200329226 /* BuildContext.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BuildContext.cpp; sourceTree = "<group>"; };
+		DC3D58881F4BCE3200329226 /* CompactHeightfieldEx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CompactHeightfieldEx.cpp; sourceTree = "<group>"; };
+		DC3D58891F4BCE3200329226 /* ContoursEx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ContoursEx.cpp; sourceTree = "<group>"; };
+		DC3D588A1F4BCE3200329226 /* HeightfieldEx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HeightfieldEx.cpp; sourceTree = "<group>"; };
+		DC3D588B1F4BCE3200329226 /* HeightfieldLayerSet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HeightfieldLayerSet.cpp; sourceTree = "<group>"; };
+		DC3D588C1F4BCE3200329226 /* NMGen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NMGen.cpp; sourceTree = "<group>"; };
+		DC3D588D1F4BCE3200329226 /* PolyMeshDetailEx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PolyMeshDetailEx.cpp; sourceTree = "<group>"; };
+		DC3D588E1F4BCE3200329226 /* PolyMeshEx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PolyMeshEx.cpp; sourceTree = "<group>"; };
+		DC3D589A1F4BCE3D00329226 /* Recast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recast.h; sourceTree = "<group>"; };
+		DC3D589B1F4BCE3D00329226 /* RecastAlloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecastAlloc.h; sourceTree = "<group>"; };
+		DC3D589C1F4BCE3D00329226 /* RecastAssert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecastAssert.h; sourceTree = "<group>"; };
+		DC3D589E1F4BCE3D00329226 /* Recast.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recast.cpp; sourceTree = "<group>"; };
+		DC3D589F1F4BCE3D00329226 /* RecastAlloc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RecastAlloc.cpp; sourceTree = "<group>"; };
+		DC3D58A01F4BCE3D00329226 /* RecastArea.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RecastArea.cpp; sourceTree = "<group>"; };
+		DC3D58A11F4BCE3D00329226 /* RecastAssert.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RecastAssert.cpp; sourceTree = "<group>"; };
+		DC3D58A21F4BCE3D00329226 /* RecastContour.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RecastContour.cpp; sourceTree = "<group>"; };
+		DC3D58A31F4BCE3D00329226 /* RecastFilter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RecastFilter.cpp; sourceTree = "<group>"; };
+		DC3D58A41F4BCE3D00329226 /* RecastLayers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RecastLayers.cpp; sourceTree = "<group>"; };
+		DC3D58A51F4BCE3D00329226 /* RecastMesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RecastMesh.cpp; sourceTree = "<group>"; };
+		DC3D58A61F4BCE3D00329226 /* RecastMeshDetail.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RecastMeshDetail.cpp; sourceTree = "<group>"; };
+		DC3D58A71F4BCE3D00329226 /* RecastRasterization.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RecastRasterization.cpp; sourceTree = "<group>"; };
+		DC3D58A81F4BCE3D00329226 /* RecastRegion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RecastRegion.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC3D58771F4BCE0600329226 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC3D58711F4BCE0600329226 = {
+			isa = PBXGroup;
+			children = (
+				DC3D58971F4BCE3D00329226 /* Recast */,
+				DC3D58831F4BCE3200329226 /* NMGen */,
+				DC3D587C1F4BCE0600329226 /* cai-nmgen-rcn */,
+				DC3D587B1F4BCE0600329226 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC3D587B1F4BCE0600329226 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC3D587A1F4BCE0600329226 /* cai-nmgen-rcn.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC3D587C1F4BCE0600329226 /* cai-nmgen-rcn */ = {
+			isa = PBXGroup;
+			children = (
+				DC3D587D1F4BCE0600329226 /* Info.plist */,
+			);
+			path = "cai-nmgen-rcn";
+			sourceTree = "<group>";
+		};
+		DC3D58831F4BCE3200329226 /* NMGen */ = {
+			isa = PBXGroup;
+			children = (
+				DC3D58841F4BCE3200329226 /* Include */,
+				DC3D58861F4BCE3200329226 /* Source */,
+			);
+			name = NMGen;
+			path = ../../NMGen;
+			sourceTree = "<group>";
+		};
+		DC3D58841F4BCE3200329226 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				DC3D58851F4BCE3200329226 /* NMGen.h */,
+			);
+			path = Include;
+			sourceTree = "<group>";
+		};
+		DC3D58861F4BCE3200329226 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DC3D58871F4BCE3200329226 /* BuildContext.cpp */,
+				DC3D58881F4BCE3200329226 /* CompactHeightfieldEx.cpp */,
+				DC3D58891F4BCE3200329226 /* ContoursEx.cpp */,
+				DC3D588A1F4BCE3200329226 /* HeightfieldEx.cpp */,
+				DC3D588B1F4BCE3200329226 /* HeightfieldLayerSet.cpp */,
+				DC3D588C1F4BCE3200329226 /* NMGen.cpp */,
+				DC3D588D1F4BCE3200329226 /* PolyMeshDetailEx.cpp */,
+				DC3D588E1F4BCE3200329226 /* PolyMeshEx.cpp */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		DC3D58971F4BCE3D00329226 /* Recast */ = {
+			isa = PBXGroup;
+			children = (
+				DC3D58991F4BCE3D00329226 /* Include */,
+				DC3D589D1F4BCE3D00329226 /* Source */,
+			);
+			name = Recast;
+			path = ../../Recast;
+			sourceTree = "<group>";
+		};
+		DC3D58991F4BCE3D00329226 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				DC3D589A1F4BCE3D00329226 /* Recast.h */,
+				DC3D589B1F4BCE3D00329226 /* RecastAlloc.h */,
+				DC3D589C1F4BCE3D00329226 /* RecastAssert.h */,
+			);
+			path = Include;
+			sourceTree = "<group>";
+		};
+		DC3D589D1F4BCE3D00329226 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DC3D589E1F4BCE3D00329226 /* Recast.cpp */,
+				DC3D589F1F4BCE3D00329226 /* RecastAlloc.cpp */,
+				DC3D58A01F4BCE3D00329226 /* RecastArea.cpp */,
+				DC3D58A11F4BCE3D00329226 /* RecastAssert.cpp */,
+				DC3D58A21F4BCE3D00329226 /* RecastContour.cpp */,
+				DC3D58A31F4BCE3D00329226 /* RecastFilter.cpp */,
+				DC3D58A41F4BCE3D00329226 /* RecastLayers.cpp */,
+				DC3D58A51F4BCE3D00329226 /* RecastMesh.cpp */,
+				DC3D58A61F4BCE3D00329226 /* RecastMeshDetail.cpp */,
+				DC3D58A71F4BCE3D00329226 /* RecastRasterization.cpp */,
+				DC3D58A81F4BCE3D00329226 /* RecastRegion.cpp */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC3D58791F4BCE0600329226 /* cai-nmgen-rcn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC3D58801F4BCE0600329226 /* Build configuration list for PBXNativeTarget "cai-nmgen-rcn" */;
+			buildPhases = (
+				DC3D58761F4BCE0600329226 /* Sources */,
+				DC3D58771F4BCE0600329226 /* Frameworks */,
+				DC3D58781F4BCE0600329226 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cai-nmgen-rcn";
+			productName = "cai-nmgen-rcn";
+			productReference = DC3D587A1F4BCE0600329226 /* cai-nmgen-rcn.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC3D58721F4BCE0600329226 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = hjent;
+				TargetAttributes = {
+					DC3D58791F4BCE0600329226 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = QLUH8BLP4N;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DC3D58751F4BCE0600329226 /* Build configuration list for PBXProject "cai-nmgen-rcn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DC3D58711F4BCE0600329226;
+			productRefGroup = DC3D587B1F4BCE0600329226 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC3D58791F4BCE0600329226 /* cai-nmgen-rcn */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC3D58781F4BCE0600329226 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC3D58761F4BCE0600329226 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC3D58921F4BCE3200329226 /* HeightfieldEx.cpp in Sources */,
+				DC3D58AB1F4BCE3D00329226 /* RecastAlloc.cpp in Sources */,
+				DC3D58B01F4BCE3D00329226 /* RecastLayers.cpp in Sources */,
+				DC3D58B41F4BCE3D00329226 /* RecastRegion.cpp in Sources */,
+				DC3D58B21F4BCE3D00329226 /* RecastMeshDetail.cpp in Sources */,
+				DC3D58AE1F4BCE3D00329226 /* RecastContour.cpp in Sources */,
+				DC3D58901F4BCE3200329226 /* CompactHeightfieldEx.cpp in Sources */,
+				DC3D58931F4BCE3200329226 /* HeightfieldLayerSet.cpp in Sources */,
+				DC3D58951F4BCE3200329226 /* PolyMeshDetailEx.cpp in Sources */,
+				DC3D58AC1F4BCE3D00329226 /* RecastArea.cpp in Sources */,
+				DC3D58911F4BCE3200329226 /* ContoursEx.cpp in Sources */,
+				DC3D58961F4BCE3200329226 /* PolyMeshEx.cpp in Sources */,
+				DC3D588F1F4BCE3200329226 /* BuildContext.cpp in Sources */,
+				DC3D58AD1F4BCE3D00329226 /* RecastAssert.cpp in Sources */,
+				DC3D58B31F4BCE3D00329226 /* RecastRasterization.cpp in Sources */,
+				DC3D58AF1F4BCE3D00329226 /* RecastFilter.cpp in Sources */,
+				DC3D58AA1F4BCE3D00329226 /* Recast.cpp in Sources */,
+				DC3D58B11F4BCE3D00329226 /* RecastMesh.cpp in Sources */,
+				DC3D58941F4BCE3200329226 /* NMGen.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DC3D587E1F4BCE0600329226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DC3D587F1F4BCE0600329226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DC3D58811F4BCE0600329226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QLUH8BLP4N;
+				INFOPLIST_FILE = "cai-nmgen-rcn/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huanjuent.cai-nmgen-rcn";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		DC3D58821F4BCE0600329226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QLUH8BLP4N;
+				INFOPLIST_FILE = "cai-nmgen-rcn/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huanjuent.cai-nmgen-rcn";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC3D58751F4BCE0600329226 /* Build configuration list for PBXProject "cai-nmgen-rcn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC3D587E1F4BCE0600329226 /* Debug */,
+				DC3D587F1F4BCE0600329226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC3D58801F4BCE0600329226 /* Build configuration list for PBXNativeTarget "cai-nmgen-rcn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC3D58811F4BCE0600329226 /* Debug */,
+				DC3D58821F4BCE0600329226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC3D58721F4BCE0600329226 /* Project object */;
+}

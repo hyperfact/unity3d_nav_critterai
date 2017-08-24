@@ -104,6 +104,10 @@ namespace org.critterai.u3d
                 }
                 return mSimpleMaterial;
             }
+            set
+            {
+                mSimpleMaterial = value;
+            }
         }
 
         /// <summary>

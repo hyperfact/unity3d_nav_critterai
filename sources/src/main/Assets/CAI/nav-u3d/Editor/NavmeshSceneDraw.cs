@@ -47,6 +47,8 @@ namespace org.critterai.nav.u3d.editor
 
         private bool mColorByArea = false;
 
+        private Material mMaterial = null;
+
         private NavmeshSceneDraw() { }
 
         /// <summary>
@@ -155,6 +157,7 @@ namespace org.critterai.nav.u3d.editor
             if (isInspector)
             {
                 curr = EditorGUILayout.Toggle(label, orig);
+                mMaterial = EditorGUILayout.ObjectField("Material", mMaterial, typeof(Material), true) as Material;
                 GUI.enabled = guiEnabled && curr;
                 if (includeAreaOption)
                     mColorByArea = EditorGUILayout.Toggle("Color by area", mColorByArea);
@@ -211,6 +214,7 @@ namespace org.critterai.nav.u3d.editor
                     return;
             }
 
+            org.critterai.u3d.DebugDraw.SimpleMaterial = mMaterial;
             NavDebug.Draw(mNavmesh, mColorByArea);
         }
     }

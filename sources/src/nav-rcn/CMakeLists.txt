@@ -1,6 +1,6 @@
 cmake_minimum_required (VERSION 2.8)
 
-project (nav-rcn)
+project (cai-nav-rcn)
 
 # for flag -fPIC
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)
@@ -20,7 +20,9 @@ aux_source_directory(Nav/Include NAV_INCS)
 aux_source_directory(Nav/Source NAV_SRCS)
 
 # target
-add_library(nav-rcn SHARED ${NAV_SRCS})
+add_library(cai-nav-rcn SHARED ${NAV_SRCS})
+#set_target_properties(cai-nav-rcn PROPERTIES PREFIX "")
+
 # links
-target_link_libraries (nav-rcn Detour)
-target_link_libraries (nav-rcn DetourCrowd)
+target_link_libraries (cai-nav-rcn Detour)
+target_link_libraries (cai-nav-rcn DetourCrowd)

@@ -23,6 +23,7 @@ using System.Collections.Generic;
 using org.critterai.nmbuild;
 using org.critterai.nmbuild.u3d.editor;
 using UnityEngine;
+using UnityEditor;
 
 /// <summary>
 /// Filters out all components that are not marked as static. (Editor Only)
@@ -69,7 +70,7 @@ public sealed class StaticFilter
 
         for (int i = items.Count - 1; i >= 0; i--)
         {
-            if (!items[i].gameObject.isStatic)
+            if ((GameObjectUtility.GetStaticEditorFlags(items[i].gameObject) & StaticEditorFlags.NavigationStatic) == 0)
             {
                 items.RemoveAt(i);
                 count++;

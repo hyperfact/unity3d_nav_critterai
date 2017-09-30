@@ -24,7 +24,7 @@
 #include "DetourCommon.h"
 #include "DetourNavMeshEx.h"
 
-const long RCN_NAVMESH_VERSION = 1;
+const int RCN_NAVMESH_VERSION = 1;
 
 struct rcnNavMeshCreateParams
     : dtNavMeshCreateParams
@@ -42,7 +42,7 @@ struct rcnNavMeshCreateParams
 
 struct rcnNavMeshSetHeader
 {
-    long version;
+    int version;
     int tileCount;
     dtNavMeshParams params;
 };

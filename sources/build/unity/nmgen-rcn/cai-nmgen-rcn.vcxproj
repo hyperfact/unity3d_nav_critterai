@@ -171,6 +171,7 @@
     <ClCompile Include="..\..\..\src\nmgen-rcn\Recast\Source\Recast.cpp" />
     <ClCompile Include="..\..\..\src\nmgen-rcn\Recast\Source\RecastAlloc.cpp" />
     <ClCompile Include="..\..\..\src\nmgen-rcn\Recast\Source\RecastArea.cpp" />
+    <ClCompile Include="..\..\..\src\nmgen-rcn\Recast\Source\RecastAssert.cpp" />
     <ClCompile Include="..\..\..\src\nmgen-rcn\Recast\Source\RecastContour.cpp" />
     <ClCompile Include="..\..\..\src\nmgen-rcn\Recast\Source\RecastFilter.cpp" />
     <ClCompile Include="..\..\..\src\nmgen-rcn\Recast\Source\RecastLayers.cpp" />

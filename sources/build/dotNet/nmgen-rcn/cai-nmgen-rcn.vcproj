@@ -182,6 +182,9 @@
 			<File
 				RelativePath="..\..\..\src\nmgen-rcn\Recast\Source\RecastArea.cpp"
 				>
+			<File
+				RelativePath="..\..\..\src\nmgen-rcn\Recast\Source\RecastAssert.cpp"
+				>
 			</File>
 			<File
 				RelativePath="..\..\..\src\nmgen-rcn\Recast\Source\RecastContour.cpp"

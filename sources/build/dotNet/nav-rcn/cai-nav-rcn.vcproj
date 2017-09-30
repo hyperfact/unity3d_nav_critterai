@@ -176,6 +176,10 @@
 				>
 			</File>
 			<File
+				RelativePath="..\..\..\src\nav-rcn\Detour\Source\DetourAssert.cpp"
+				>
+			</File>
+			<File
 				RelativePath="..\..\..\src\nav-rcn\Detour\Source\DetourCommon.cpp"
 				>
 			</File>
